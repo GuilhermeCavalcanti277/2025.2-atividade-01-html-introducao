@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha pagina pessoal</title>
+    <title>Minha página pessoal</title>
+    <link rel="stylesheet" href="pg-pessoal.css">
 </head>
 <body>
+    <div class="topo-fixo">
+        <img src="imagens/400px-Jotaro_SC_Infobox_Manga.png" alt="Avatar de Guilherme" class="avatar-topo">
+        <span>Guilherme Cavalcanti</span>
+    </div>
+
     <header>
-        <img src="imagens/400px-Jotaro_SC_Infobox_Manga.png" alt="foto de Guilherme Cavalcanti" width="150" style="border-radius: 50%;">
-    <h1>Guilherme Cavalcanti</h1>
-    <h2>Estudante de desenvolvimento web</h2>
+        <img src="imagens/400px-Jotaro_SC_Infobox_Manga.png" alt="foto de Guilherme Cavalcanti" width="150" class="avatar">
+        <div class="secao centralizado">
+            <h1>Guilherme Cavalcanti</h1>
+            <h2>Estudante de Desenvolvimento Web</h2>
+        </div>
     </header>
 
     <main>
         <section>
-    <h3>Redes sociais</h3>
-    <p>
-        Instagram:
-        <a href="https://www.instagram.com/eae.cavalcanti/" target="_blank">
-            <span>@eae.cavalcanti</span>
-        </a>
-    </p>
-    <p>
-        GitHub:
-        <a href="https://github.com/GuilhermeCavalcanti277" target="_blank">
-            <span>GuilhermeCavalcanti277</span>
-        </a>
-    </p>
+            <div class="secao destaque">
+                <h3>🌐 Redes sociais</h3>
+                <p>
+                   <i class="fa-brands fa-instagram icone"></i>
+                    Instagram:
+                    <a href="https://www.instagram.com/eae.cavalcanti/" target="_blank">
+                        <span class="link-social">@eae.cavalcanti</span>
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-github icone"></i>
+                    GitHub:
+                    <a href="https://github.com/GuilhermeCavalcanti277" target="_blank">
+                        <span class="link-social">GuilhermeCavalcanti277</span>
+                    </a>
+                </p>
+            </div>
         </section>
 
         <section>
-    <h3>Programação</h3>
-    <p>em Programação estou estudando python e HTML, vendo como posso escrever meus codigos para que um dia eu consiga trabalhar como um engenheiro de softwer</p>
+            <div class="secao texto-direita">
+                <h3>💻 Programação</h3>
+                <p>Estudo Python e HTML, aprendendo a escrever código limpo e eficiente para me tornar engenheiro de software.</p>
+            </div>
         </section>
 
         <section>
-   <h3>tecnologias que ja conheço</h3> 
-   <P><span>visual Estudio Code</span> Codeforce</P>
+            <div class="secao colorido">
+                <h3>🛠️ Tecnologias</h3> 
+                <p><span class="tecnologia">Visual Studio Code</span> e <span class="tecnologia">Codeforces</span></p>
+            </div>
         </section>
     </main>
+
     <footer>
         <p>© 2025 Guilherme Cavalcanti</p>
     </footer>
